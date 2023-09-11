@@ -1,0 +1,125 @@
+body {
+    background-image:radial-gradient(rgb(230, 238, 232), rgb(77, 153, 145));
+margin: 0;
+padding: 0;
+}
+
+.Super 
+    font-size: 40px;
+    font-weight: bold;
+        text-decoration: none;
+    background-image: linear-gradient(rgb(1, 19, 1), rgb(248, 6, 6));
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+.Super:hover {
+    background-size: 100% 0px;
+}
+-->
+
+div{
+    text-align: right;
+}
+
+a {
+    color: grey;
+    font-size: 40px;
+border: 0px solid rgb(76, 0, 255);
+    transition: .5s;
+    text-decoration: none;
+}
+a:hover {color: rgb(29, 0, 83);
+        font-size: 50px;
+        border-color: black;
+        border: 10px solid rgb(144, 0, 255);
+        
+    
+}
+
+
+.Vasya {
+    text-align: center;
+}
+
+.But {
+    font-size: 40px;
+    padding: 10px;
+    color: black;
+    background-color: rgb(95, 14, 194);
+    border: 1px solid;
+    border-radius: 20px;
+}
+.But:hover {
+    background-color: rgb(98, 13, 234);
+    font-size: 50px;
+    color: aliceblue;
+    border: 1px;
+}
+
+img {
+    width: 400px;
+    transition: .5s;
+   
+    
+}
+
+img:hover {
+    width: 420px;
+
+
+   
+}
+
+.gradient {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(5,177,160,1) 62%, rgba(0,212,255,1) 100%);
+    background-size: 400%;
+    animation: gradient 20s infinite linear;
+}
+
+@keyframes gradient {
+    0% {background-position: 80% 10%;}
+    50% {background-position: 20% 50%;}
+    100% {background-position: 80% 95%;}
+}
+
+.titles{
+	width: 140px;
+	float: left;
+}
+
+#form_message{
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	border-radius: 5px;
+	margin:10px;
+	padding: 10px;
+	width: 320px;
+	height:330px;
+}
+
+#form_message input,textarea{
+	border-radius: 5px;
+	width: 170px;
+}
+
+#submit{
+	height: 50px;
+	float: right;
+}
+
+#form_message h2{
+	text-align: center;
+}
+
+#container {
+    display: flex;              /* establish flex container */
+    flex-direction: column;     /* stack flex items vertically */
+    justify-content: center;    /* center items vertically, in this case */
+    align-items: center;        /* center items horizontally, in this case */
+    height: 300px;
+    border: 1px solid black;
+}
